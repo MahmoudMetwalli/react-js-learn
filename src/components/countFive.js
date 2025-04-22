@@ -18,7 +18,7 @@ class CountFive extends Component {
         return (
             <div>
                 <h2>Count: {this.state.count}</h2>
-                <button onClick={() => this.increment()}>
+                <button onClick={this.increment}>
                     Increase Count by 5
                 </button>
             </div>
